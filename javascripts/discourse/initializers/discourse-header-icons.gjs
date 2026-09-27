@@ -1,5 +1,5 @@
 import { apiInitializer } from "discourse/lib/api";
-import dIcon from "discourse-common/helpers/d-icon";
+import dIcon from "discourse/helpers/d-icon";
 
 export default apiInitializer("1.34.0", (api) => {
   // Dynamic logic to determine icon and title
