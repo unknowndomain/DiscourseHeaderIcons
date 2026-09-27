@@ -21,8 +21,6 @@ export default apiInitializer("1.34.0", (api) => {
     console.error("Error parsing tool_status settings:", e);
   }
 
-  const site = api.container.lookup("service:site");
-  const isMobile = site.mobileView;
 
   // Add header icons
   api.headerIcons.add(
